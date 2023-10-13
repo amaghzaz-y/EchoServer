@@ -6,9 +6,8 @@ import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.net.Socket;
 
-//? System.out est une méthode
-//? System.out ecrit en sortie dans la console
-//? System.err ecrit indique une erreur à l'utilisateur. De plus, cela permet de mettre un texte important en rouge dans la console
+//? System.out -> stdout
+//? System.err -> stderr
 
 class ToolsIO {
 
@@ -37,7 +36,7 @@ class ToolsIO {
 	public String fromScreen() throws IOException {
 
 		String line = readScreen.readLine();
-		writeScreen.println(line);
+		// writeScreen.println(line);
 		return line;
 	}
 
@@ -47,7 +46,7 @@ class ToolsIO {
 
 	public String fromNetwork() throws IOException {
 		String txt = readScreen.readLine();
-		writeScreen.println(txt);
+		// writeScreen.println(txt);
 		return txt;
 	}
 }

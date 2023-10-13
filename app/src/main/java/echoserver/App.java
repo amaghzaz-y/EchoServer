@@ -12,7 +12,7 @@ public class App {
         // x.toScreen("test_screen");
         // my first commit
         screen.toScreen(network.fromNetwork());
-        network.toNetwork(screen.fromScreen());
+        // network.toNetwork(screen.fromScreen());
 
         while (!test.equals("quit")) {
             test = screen.fromScreen();
