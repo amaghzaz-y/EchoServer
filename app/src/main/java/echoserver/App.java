@@ -8,7 +8,7 @@ public class App {
 
         String test = "";
         ToolsIO screen = new ToolsIO();
-        ToolsIO network = new ToolsIO(new Socket("10.100.99.57", 2023));
+        ToolsIO network = new ToolsIO(new Socket("192.168.1.77", 5999));
         // x.toScreen("test_screen");
         // my first commit
         screen.toScreen(network.fromNetwork());
